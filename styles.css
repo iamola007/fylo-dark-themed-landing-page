@@ -1,0 +1,253 @@
+body {
+    background-color: hsl(218, 28%, 13%);
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 14px;
+    width: 100%;
+}
+.logo {
+    margin: 60px;
+}
+.top-menu {
+    display: flex;
+}
+
+.top-menu-items {
+    margin: 20px;
+    margin-right: 40px;
+    margin-top: 60px;
+}
+
+.icons {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+background: hsl(217, 28%, 15%);
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: hsl(217, 28%, 15%);
+    position: relative;
+}
+
+.intro-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;  
+    position: relative;
+}
+
+h1 {
+    font-family: 'Raleway', sans-serif;
+}
+
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 32px;
+}
+
+.get-started {
+    display: flex;
+    background: hsl(198, 60%, 50%);
+    width: 200px;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+}
+
+.description {
+    position: inherit;
+}
+.curve {
+    margin-top: -250px;
+    background-position: center;
+    flex-wrap: wrap;
+}
+.container {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: -40px;
+}
+
+.container-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 40px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.see-how-fylo-works {
+    color: hsl(176, 68%, 64%);
+}
+
+.content-item {
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: row;
+    margin-top: -10px;
+    margin-left: -30px;
+}
+
+.comments {
+    display: flex;
+    flex-direction: column;
+    background: hsl(219, 30%, 18%);
+    height: 200px;
+    width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    text-align: left;
+    border-radius: 5px;
+    }
+.name {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin: 30px;
+    margin-bottom: -20px;
+    margin-left: -100px;
+}
+
+#testimonial-image {
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.entire-footer{
+    display: flex;
+    flex-direction: column;
+   
+}
+.get-early-access-today {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: hsl(217, 28%, 15%);
+    height: 300px;
+    width: 900px;
+    align-self: center;
+    margin-bottom: -100px;
+    margin-top: 200px;
+    position: relative;
+    border-radius: 10px;
+}
+
+.entire-early-access {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.log-in {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.e-mail {
+    display: flex;
+    background: white;
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    color: grey;
+    align-items: center;
+    margin-right: 40px;
+    
+}
+.get-started-for-free {
+    display: flex;
+    background: hsl(176, 68%, 64%);
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-footer {
+    display: flex;
+    flex-direction: column;
+    background: hsl(216, 53%, 9%);
+    height: 500px;
+}
+
+.footer-logo {
+    width: 200px;
+    margin-left:150px;
+    margin-bottom: -200px;
+    margin-top: 200px;
+}
+    .footer {
+        display: flex;
+        flex-direction: row;
+        background: hsl(216, 53%, 9%);
+        justify-content: space-evenly;
+    align-items: center;
+    margin-top: 200px;
+    }
+
+.address {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin-top: -30px;
+}
+
+.location-icon {
+    margin-top: -30px;
+    margin-right: 30px;
+}
+
+.telephone {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: -20px;
+}
+
+.telephone-item {
+    display: flex;
+    flex-direction: row;
+}
+
+.contact-icon {
+    margin-right: 30px;
+}
+
+.about-us {
+    margin-top: 30px;
+}
